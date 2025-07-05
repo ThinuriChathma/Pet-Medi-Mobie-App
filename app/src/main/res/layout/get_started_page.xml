@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="246dp"
+        android:layout_height="188dp"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="364dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/v3" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/your_all_in_one_companion_for_pet_health_and_happiness_track_your_pet_s_wellness_set_reminders_for_vet_visits_manage_vaccinations_monitor_diet_plans_access_expert_tips_find_nearby_pet_services_connect_with_pet_lovers_store_medical_records_and_get_personalized_care_recommendations_all_in_one_place_let_s_make_pet_care_easy_organized_and_stress_free"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/firstPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onMainLayoutClick"
+        android:text="@string/get_start"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"/>
+
+</LinearLayout>
